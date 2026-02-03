@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Daftar Produk</title>
+  <link rel="stylesheet" href="produk.css">
+</head>
+<body>
+
+  <h2>Daftar Produk</h2>
+
+  <!-- Filter -->
+  <div class="filter">
+    <button onclick="filterProduk('all')">Semua</button>
+    <button onclick="filterProduk('elektronik')">Elektronik</button>
+    <button onclick="filterProduk('fashion')">Fashion</button>
+    <button onclick="filterProduk('makanan')">Makanan</button>
+  </div>
+
+  <!-- Tempat produk -->
+  <div id="produk-container" class="produk-container"></div>
+
+  <script src="produk.js"></script>
+</body>
+</html>
